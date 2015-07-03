@@ -1,0 +1,21 @@
+{
+  "name": "shuggest_bot",
+  "version": "0.1.0",
+  "description": "shuggest notification bot for telegram",
+  "main": "app.js",
+  "engines": {
+    "iojs": "2.3.1"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/babel app.js | iojs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.6.7",
+    "body-parser": "^1.13.1",
+    "express": "^4.13.0",
+    "request": "^2.58.0"
+  }
+}
