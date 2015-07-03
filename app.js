@@ -32,5 +32,7 @@ app.post('/', (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
+  console.log('Telegram Bot Token:', process.env.TELEGRAM_BOT_TOKEN);
+  console.log('Chat ID:', process.env.CHAT_ID);
   console.log('listening..');
 });
